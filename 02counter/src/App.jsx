@@ -5,9 +5,11 @@ function App() {
   let [counter, setCounter] = useState(15);
 
   const addValue = () => {
-    if (counter < 20) {
-      counter += 1;
-      setCounter(counter);
+    if (counter < 40) {
+      setCounter((preCounter) => preCounter + 1);
+      setCounter((preCounter) => preCounter + 1);
+      setCounter((preCounter) => preCounter + 1);
+      setCounter((preCounter) => preCounter + 1);
     }
   };
 

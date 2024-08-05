@@ -1,0 +1,9 @@
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.MuiPaper-root {
+  background-color: #2b2b2b !important;
+  color: #fff !important;
+}
